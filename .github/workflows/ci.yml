@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: "6,12,24 0 * * *"
+#  schedule:
+#    - cron: "6,12,24 0 * * *"
 
 jobs:
   autogreen:
